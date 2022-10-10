@@ -1,67 +1,67 @@
 "use strict";
 
-alert("rest")
+alert("rest");
 
-const canvas = document.getElementById("canvas") 
+const canvas = document.getElementById("canvas"); 
 canvas.width = window.innerWidth
 canvas.heigt = window.innerHeight
-const context = canvas.getContext("2d")
+const context = canvas.getContext("2d");
 
 
 context.beginPath();
-context.moveTo(300,100)
-context.lineTo(100,100)
-context.lineTo(100,300)
-context.lineTo(300,300)
-context.lineTo(300,500)
-context.lineTo(100,500)
-context.strokestyle = "red"
+context.moveTo(30,10);
+context.lineTo(10,10);
+context.lineTo(10,30);
+context.lineTo(30,30);
+context.lineTo(30,50);
+context.lineTo(10,50);
+context.strokestyle = "red";
 context.stroke();
 
 
 context.beginPath();
-context.moveTo(400,500)
-context.lineTo(500,100)
-context.lineTo(600,500)
-context.moveTo(450,300)
-context.lineTo(550,300)
-context.strokestyle = "green"
+context.moveTo(40,50);
+context.lineTo(50,10);
+context.lineTo(60,50);
+context.moveTo(45,30);
+context.lineTo(55,30);
+context.strokestyle = "green";
 context.stroke();
 
 
 context.beginPath();
-context.moveTo(700,500)
-context.lineTo(700,100)
-context.lineTo(850,200)
-context.lineTo(1000,100)
-context.lineTo(1000,500)
-context.strokeStyle = "orange"
+context.moveTo(70,50);
+context.lineTo(70,10);
+context.lineTo(85,20);
+context.lineTo(100,00);
+context.lineTo(100,50);
+context.strokeStyle = "orange";
 context.stroke();
 
 
 context.beginPath();
-context.moveTo(1100,100)
-context.lineTo(1100,500)
-context.lineTo(1300,500)
-context.lineTo(1300,100)
-context.strokestyle = "yellow"
+context.moveTo(110,10);
+context.lineTo(110,50);
+context.lineTo(130,50);
+context.lineTo(130,10);
+context.strokestyle = "yellow";
 context.stroke();
 
 
 context.beginPath();
-context.moveTo(1600,100)
-context.lineTo(1400,100)
-context.lineTo(1400,500)
-context.lineTo(1600,500)
-context.moveTo(1400,300)
-context.lineTo(1600,300)
+context.moveTo(160,10)
+context.lineTo(140,10)
+context.lineTo(140,50)
+context.lineTo(160,50)
+context.moveTo(140,30)
+context.lineTo(160,30)
 context.strokeStyle = "blue"
 context.stroke();
 
 
 context.beginPath();
-context.moveTo(1700,100)
-context.lineTo(1700,500)
-context.lineTo(1900,500)
+context.moveTo(170,10)
+context.lineTo(170,50)
+context.lineTo(190,50)
 context.strokeStyle = "pink"
 context.stroke();
